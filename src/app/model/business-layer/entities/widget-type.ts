@@ -1,4 +1,5 @@
 import { EntityBase } from './entity.base';
 
-export class Widget extends EntityBase {
+export class WidgetType extends EntityBase {
+
 }
