@@ -1,0 +1,38 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <h3>Configuration</h3>
+      <hr />
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+
+      <ngb-tabset>
+        <ngb-tab>
+          <ng-template ngbTabTitle>Language</ng-template>
+          <ng-template ngbTabContent>
+            <div class="config-tab-content">
+              <app-language-config></app-language-config>
+            </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab>
+          <ng-template ngbTabTitle>Persistence</ng-template>
+          <ng-template ngbTabContent>
+            <div class="config-tab-content">
+                <app-persistence-config></app-persistence-config>
+              </div>
+          </ng-template>
+        </ngb-tab>
+        <ngb-tab>
+          <ng-template ngbTabTitle>Clock & Date</ng-template>
+          <ng-template ngbTabContent>
+            <div class="config-tab-content"></div>
+          </ng-template>
+        </ngb-tab>
+      </ngb-tabset>
+
+      </div>
+    </div>
+  </div>
